@@ -8,8 +8,8 @@ let deposit = true;
 console.log(typeof deposit);
 let mission = 1500000;
 let period = 6;
-let budgetDay = 150000;
-console.log(budgetDay / 30);
+let budgetDay = money / 30;
+console.log(budgetDay);
 
 
 // alert('Приветик?');
