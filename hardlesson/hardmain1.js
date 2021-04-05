@@ -23,7 +23,6 @@ let array = {
 console.log(array[lang]);
 
 
-let namePerson = 'Артем';
-namePerson = true ? console.log('Директор') : console.log('Студент');
-namePerson = 'Максим' ? console.log('Преподаватель') : console.log('Студент');
-namePerson = false ? console.log('Преподаватель') : console.log('Студент');
+let namePerson = 'артем';
+
+console.log(namePerson === 'артем' ? 'директор' : namePerson === 'максим' ? 'преподаватель' : 'студент');
