@@ -23,11 +23,11 @@ let price2 = +prompt('Во сколько обойдется вторая ста
 console.log(typeof price2);
 
 
-let budgetMonth = (money + price + price2) / 30;
+let budgetMonth = money - (price + price2);
 console.log('Бюджет на месяц :', budgetMonth );
 
 let budgetDay = budgetMonth / 30;
-console.log(Math.floor(budgetDay), `Бюджет на день : ${budgetDay} `);
+console.log(Math.floor(budgetDay), `Бюджет на день : ${Math.floor(budgetDay)} `);
 
 let monthMission = mission / budgetMonth;
 console.log(Math.ceil(monthMission), `Цель будет достигнута за ${monthMission} месяцев (-а)`);
