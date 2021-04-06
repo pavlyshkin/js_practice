@@ -25,13 +25,13 @@ let price2 = +prompt('Во сколько обойдется вторая ста
 
 
 
-function getEspensesMonth(a,b) {
+function getEspensesMonth(price, price2) {
   return price + price2;
 }
 getEspensesMonth();
 console.log('Сумма расходов на месяц:', getEspensesMonth());
 
-function  getAccumulatedMonth() {
+function  getAccumulatedMonth(money, price, price2 ) {
   return money - (price + price2);
 }
 getAccumulatedMonth();
@@ -39,7 +39,7 @@ console.log('Накопления за месяц составили: ', getAccu
 
 let accumulatedMonth = getAccumulatedMonth();
 
-function getTargetMonth() {
+function getTargetMonth(mission) {
  return mission / getAccumulatedMonth();
 }
 getTargetMonth();
