@@ -3,7 +3,7 @@
 let money = +prompt('Ваш месячный доход?', '50000');
 let income = 'Фриланс';
 let addExpenses = prompt('Перечислите возможные расходы за рассчитываемый период через запятую');
-console.log(addExpenses[addExpenses.length]);
+console.log(addExpenses);
 let deposit = confirm('Если ли у вас депозит в банке?');
 let mission = 1500000;
 let period = 6;
